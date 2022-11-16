@@ -135,6 +135,11 @@ h1{
 
 @media screen and (min-width: 576px) {
 
+
+  #menuHeader{
+    position: relative;
+  }
+
     #menuHeader label {
         display: none;
       }
@@ -142,6 +147,9 @@ h1{
        
         width: fit-content;
         flex-direction: row;
+        position: absolute;
+        right: 0;
+        top: 15px;
        
       }
       #box:not(:checked) ~ ul {
@@ -164,10 +172,16 @@ h1{
         width: 100%;
         
     }
+    #headerText{
+      border: none;
+    }
  /* header */
 
    #header{
-    height: 70vh;
+    height: 60vh;
+    display: block;
+    
+       
    }
 
 
