@@ -382,6 +382,7 @@ button {
     right: 0;
     padding-top: 1rem;
 
+<<<<<<< HEAD
     font-size: 0.7rem;
 
     color: black;
@@ -398,3 +399,69 @@ button {
     height: 70vh;
   }
 }
+=======
+
+  #menuHeader{
+    position: relative;
+  }
+
+    #menuHeader label {
+        display: none;
+      }
+      #menuHeader ul {
+       
+        width: fit-content;
+        flex-direction: row;
+        position: absolute;
+        right: 0;
+        top: 15px;
+       
+      }
+      #box:not(:checked) ~ ul {
+        max-height: 20vh;
+        /* background-color: red; */
+      }
+      #menuHeader li {
+        
+        right: 0;
+        padding-top: 1rem;
+        
+        font-size: 0.7rem;
+        
+        color: black;
+      }
+      #menuHeader:hover {
+        background-color: none;
+      }
+      #headerText h1{
+        width: 100%;
+        
+    }
+    #headerText{
+      border: none;
+    }
+ /* header */
+
+   #header{
+    height: 60vh;
+    display: block;
+    
+       
+   }
+
+
+
+
+
+
+
+    }
+
+   
+
+
+   
+    
+
+    
+>>>>>>> 395550f3f9f11b06e3b070056c611e4188e7e476
