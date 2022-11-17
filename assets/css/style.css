@@ -215,6 +215,7 @@ button {
   
   background-color: #a0a2a5;
   width: 100%;
+  height:  60vh;
 }
 #middle h3{
   display: flex;
@@ -262,31 +263,49 @@ button {
   width: 90%;
   height: 3vh;
   background-color: #a0a2a5;
-  
+  z-index: 1;
  
 
 }
-.bar1{
-  background-color: #151616;
-  position: absolute;
-  
-}
-#bar2{
+.bar12{
+  background-color: #535555;
   width: 85%;
+  
+  height: 3vh;
+ 
+}
+
+
+#bar2{
+  width: 90%;
   height: 3vh;
   background-color: #a0a2a5;
   
  
 
+}
+.bar13{
+  background-color: #535555;
+  width: 75%;
+  
+  height: 3vh;
+  
 }
 #bar3{
-  width: 75%;
+  width: 90%;
   height: 3vh;
   background-color: #a0a2a5;
   
  
 
 }
+.bar14{
+  background-color: #535555;
+  width: 65%;
+  
+  height: 3vh;
+}
+
 /* section pricing */
 #pricing{
   padding-top: 5vh;
@@ -364,9 +383,15 @@ button {
 
 /* FIN section pricing */
 /* section contact */
-#
+#contact h3{
+  text-align: center;
+}
+#contact h4{
+  text-align: center;
+}
 
 @media screen and (min-width: 576px) {
+  
   #menuHeader label {
     display: none;
   }
@@ -382,7 +407,6 @@ button {
     right: 0;
     padding-top: 1rem;
 
-<<<<<<< HEAD
     font-size: 0.7rem;
 
     color: black;
@@ -398,70 +422,5 @@ button {
   #header {
     height: 70vh;
   }
+
 }
-=======
-
-  #menuHeader{
-    position: relative;
-  }
-
-    #menuHeader label {
-        display: none;
-      }
-      #menuHeader ul {
-       
-        width: fit-content;
-        flex-direction: row;
-        position: absolute;
-        right: 0;
-        top: 15px;
-       
-      }
-      #box:not(:checked) ~ ul {
-        max-height: 20vh;
-        /* background-color: red; */
-      }
-      #menuHeader li {
-        
-        right: 0;
-        padding-top: 1rem;
-        
-        font-size: 0.7rem;
-        
-        color: black;
-      }
-      #menuHeader:hover {
-        background-color: none;
-      }
-      #headerText h1{
-        width: 100%;
-        
-    }
-    #headerText{
-      border: none;
-    }
- /* header */
-
-   #header{
-    height: 60vh;
-    display: block;
-    
-       
-   }
-
-
-
-
-
-
-
-    }
-
-   
-
-
-   
-    
-
-    
->>>>>>> 395550f3f9f11b06e3b070056c611e4188e7e476
