@@ -115,7 +115,7 @@ h1 {
   letter-spacing: 1px;
 }
 #headerText {
-  border: 1px solid;
+  
   padding-left: 3rem;
 }
 /* reseaux */
@@ -134,18 +134,46 @@ h1 {
   justify-content: center;
   padding-top: 10vh;
 }
-#about h3 {
+#responsive h3 {
   font-size: 0.9rem;
   display: flex;
   justify-content: center;
 }
+#responsive
+{
+  
+display: flex;
+flex-flow: column;
 
-#desk {
+  
+}
+#atc{
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+.desk {
   display: flex;
   justify-content: center;
   font-size: 3rem;
   padding-top: 5vh;
+  
+
+ 
+  
+  
+
+
 }
+
+  
+
+#aboutSection{
+  display: flex;
+  justify-content: center;
+}
+
+
 #about p {
   padding-left: 2rem;
 }
@@ -526,9 +554,81 @@ h1 {
   #headerText h1 {
     width: 100%;
   }
+  #reseaux{
+    position: absolute;
+    top: 45vh;
+  }
   /* header */
 
   #header {
     height: 70vh;
+    position: relative;
+  }
+  #headerText{
+   position: absolute;
+   left: 2rem;
+  }
+  #about{
+    display: flex;
+    flex-wrap: row;
+  }
+  #about h2{
+    display: flex;
+    justify-content: center;
+
+  }
+  #about h3{
+    font-size: .8rem;
+
+  }
+  #about p{
+    font-size: .8rem;
+  }
+  /* section about */
+
+  #about h2 {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+  }
+  #responsive h3 {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+  }
+  #responsive
+  {
+    width: 100%;
+    
+  }
+  #atc{
+    display: flex;
+    justify-content: center;
+  }
+  .desk {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding-top: 5vh;
+    
+  
+   
+    
+    
+  
+  
+  }
+  
+    
+  
+  #aboutSection{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  #about p {
+    padding-left: 2rem;
   }
 }
